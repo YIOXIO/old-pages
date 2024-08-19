@@ -1,0 +1,15 @@
+.student-title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #001529;
+    padding: 0;
+    margin: 180px 0 50px;
+}
+
+@media screen and (max-width: 800px) {
+    .student-title {
+        font-size: 36px;
+    }
+}

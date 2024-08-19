@@ -1,0 +1,20 @@
+.lead__link-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    color: #FFFFFF;
+    background-color: #7C94FF;
+    padding: 11px 47px 15px;
+    max-width: 489px;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: box-shadow .3s ease;
+}
+
+.lead__link-button:hover {
+    box-shadow: 0 0 15px #7C94FF;
+}

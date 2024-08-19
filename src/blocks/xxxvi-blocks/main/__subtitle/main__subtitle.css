@@ -1,0 +1,16 @@
+.main__subtitle {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    letter-spacing: 0.07em;
+    color: #001529;
+    margin: 0 0 64px;
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .main__subtitle{
+        font-size:30px;
+        line-height: 38px;
+    }
+}

@@ -1,0 +1,6 @@
+.lead__container {
+    display: flex;
+    gap: 25px;
+    margin: 45px 0 60px;
+    flex-direction: column;
+}

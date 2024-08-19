@@ -1,0 +1,139 @@
+.actual-table {
+    width:100%;
+    border: 1px solid transparent;
+    border-collapse: separate;
+    margin: 1rem 0;
+    border-color: rgba(101, 86, 147, 0.278);
+    text-align: center;
+}
+
+
+.actual-table td {
+    border-width: 1px 1px 1px 1px;
+    padding: 20px;
+}
+
+
+
+/* Стили span по умолчанию - скрыты на настольных устройствах */
+.mobile-table {
+    background: #eee;
+    color: rgb(0, 0, 0);
+    display: none;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+
+@media(max-width: 800px) {
+
+    .actual-table {
+        width: 100%;
+    }
+
+    .actual-table__head {
+        left: -9999px;
+        position: absolute;
+        visibility: hidden;
+        display: none;
+    }
+
+    .actual-table tr {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .actual-table {
+        border: none;
+    }
+
+    .actual-table td {
+        border: 1px solid;
+        margin: 0 -1px -1px 0;
+        padding-top: 35px;
+        /* дополнительный отступ для предотвращения склеивания заголовков */
+        position: relative;
+    }
+
+    /* Отображение span заголовков */
+    .mobile-table {
+        display: block;
+    }
+}.actual-table {
+    border: 1px solid transparent;
+    border-collapse: separate;
+    margin: 1rem 0;
+    border-color: rgba(101, 86, 147, 0.278);
+    text-align: center;
+}
+
+
+.actual-table td {
+    border-width: 1px 1px 1px 1px;
+    padding: 20px;
+}
+
+
+
+/* Стили span по умолчанию - скрыты на настольных устройствах */
+.mobile-table {
+    background: #eee;
+    color: rgb(0, 0, 0);
+    display: none;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px;
+    position: absolute;
+    text-transform: uppercase;
+    top: 0;
+    left: 0;
+}
+
+@media(max-width: 800px) {
+
+    .actual-table {
+       max-width: 100%;
+    }
+
+    .actual-table__head {
+        left: -9999px;
+        position: absolute;
+        visibility: hidden;
+        display: none;
+    }
+
+    .actual-table tr {
+        border-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+
+    .actual-table {
+        border: none;
+    }
+
+    .actual-table td {
+        border: 1px solid;
+        margin: 0 -1px -1px 0;
+        padding-top: 35px;
+        /* дополнительный отступ для предотвращения склеивания заголовков */
+        position: relative;
+        /* width: 50%; */
+    }
+
+    /* Отображение span заголовков */
+    .mobile-table {
+        display: block;
+    }
+}

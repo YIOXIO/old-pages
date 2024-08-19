@@ -1,0 +1,24 @@
+/* Страница Стипендия HIVE.REA.RU */
+
+
+/* Общие стили */
+@import './scholarship/root/root.css';
+@import './scholarship/page/page.css';
+
+
+/* Стили для Lead */
+@import './scholarship/lead/__container/lead__container.css';
+@import './scholarship/lead/__desc/lead__desc.css';
+@import './scholarship/lead/__desc/_margin-top/laed__desc_margin-top.css';
+@import './scholarship/lead/__desc/_italic/lead__desc_italic.css';
+@import './scholarship/lead/__title/lead__title.css';
+
+/* Стили для Main-list */
+@import './scholarship/main-list/main-list.css';
+
+/* Стили для Span-accent */
+
+@import './scholarship/span-accent/span-accent.css';
+
+/* Стили для Section - title */
+@import './scholarship/section-title/section-title.css'

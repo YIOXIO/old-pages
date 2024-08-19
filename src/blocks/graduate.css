@@ -1,0 +1,28 @@
+/* Страница поддержки научной деятельности студентов, аспирантов и молодых ученых (УО НИР) HIVE.REA.RU */
+
+/* Общие стили */
+@import './graduate-blocks/root/root.css';
+@import './graduate-blocks/page/page.css';
+
+/* Стили для элемента Grad-card */
+@import './graduate-blocks/grad-card/grad-card.css';
+@import './graduate-blocks/grad-card/__content/grad-card__content.css';
+@import './graduate-blocks/grad-card/__title/grad-card__title.css';
+@import './graduate-blocks/grad-card/__desc/grad-card__desc.css';
+
+/* Стили для элеметна Grad-cards */
+@import './graduate-blocks/grad-cards/grad-cards.css';
+@import './graduate-blocks/grad-cards/_long/grad-cards_long.css';
+
+/* Стили для элеметна Grad-button */
+@import './graduate-blocks/grad-button/grad-button.css';
+
+/* Стили для элемента Section-Title & Section-Desc */
+@import './graduate-blocks/section-title/section-title.css';
+@import './graduate-blocks/section-desc/section-desc.css';
+
+/* Стили для элемента lead */
+@import './graduate-blocks/lead/__title/lead__title.css';
+@import './graduate-blocks/lead/__link/lead__link.css';
+@import './graduate-blocks/lead/__link-button/lead__link-button.css';
+@import './graduate-blocks/lead/__link-name/lead__link-name.css';

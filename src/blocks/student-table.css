@@ -1,0 +1,9 @@
+/* Страница XXXVI HIVE.REA.RU */
+
+/* Общие стили */
+@import './student-table/root/root.css';
+@import './student-table/page/page.css';
+
+/* Стили для таблицы */
+@import './student-table/student-table/student-table.css';
+@import './student-table/student-title/student-title.css';

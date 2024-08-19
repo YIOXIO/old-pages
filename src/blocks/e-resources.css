@@ -1,0 +1,24 @@
+/* Страница Электронные ресурсы HIVE.REA.RU */
+
+/* Общие стили */
+@import './science-block/root/root.css';
+@import './science-block/page/page.css';
+
+/* Стили для заголовка и подзодголовка секций */
+@import './science-block/section-title/section-title.css';
+@import './science-block/section-subtitle/section-subtitle.css';
+
+
+/* Стили для элемента Sci-card */
+@import './science-block/sci-cards/sci-cards.css';
+@import './science-block/sci-card/sci-card.css';
+@import './science-block/sci-card/__img/sci-card__img.css';
+@import './science-block/sci-card/__content/sci-card__content.css';
+@import './science-block/sci-card/__title/sci-card__title.css';
+@import './science-block/sci-card/__desc/sci-card__desc.css';
+@import './science-block/sci-card/__content/_bottom/sci-card__content_bottom.css';
+
+/* Стили для элемента Button */
+@import './science-block/button/sci-button.css';
+
+/* Стили для секции VAC */

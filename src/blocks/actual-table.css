@@ -1,0 +1,18 @@
+/* Страница XXXVI HIVE.REA.RU */
+
+/* Общие стили */
+@import './actual-blocks/root/root.css';
+@import './actual-blocks/page/page.css';
+
+/* Стили для таблицы */
+
+@import './actual-blocks/actual-table/actual-table.css';
+@import './actual-blocks/actual-title/actual-title.css';
+
+
+@media screen and (max-width: 768px){
+    .actual{
+            display: flex;
+    flex-direction: column;
+    }
+}

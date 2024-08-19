@@ -1,0 +1,12 @@
+.lead__container {
+    display: flex;
+    gap: 25px;
+    margin: 45px 0 60px;
+}
+
+
+@media screen and (max-width: 905px) {
+    .lead__container {
+        flex-direction: column;
+    }
+}

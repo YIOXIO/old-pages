@@ -1,0 +1,27 @@
+/* Страница FGBOU HIVE.REA.RU */
+
+
+/* Общие стили */
+@import './fgbou-blocks/root/root.css';
+@import './fgbou-blocks/page/page.css';
+
+
+/* Стили для страницы Lead */
+
+@import './fgbou-blocks/lead/__title/lead__title.css';
+@import './fgbou-blocks/lead/__container/lead__container.css';
+@import './fgbou-blocks/lead/__date/lead__date.css';
+@import './fgbou-blocks/lead/__link-button/lead__link-button.css';
+@import './fgbou-blocks/lead/__link-button/_long/lead__link-button_long.css';
+@import './fgbou-blocks/lead/__desc/lead__desc.css';
+
+
+@import './fgbou-blocks/section-title/section-title.css';
+
+@import './fgbou-blocks/main-list/main-list.css';
+
+@import './fgbou-blocks/span-accent/span-accent.css';
+
+a:hover{
+    color:#fff;
+}

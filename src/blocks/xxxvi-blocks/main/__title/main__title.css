@@ -1,0 +1,17 @@
+.main__title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 130%;
+    letter-spacing: 0.07em;
+    color: #001529;
+    padding: 0;
+    margin: 180px 0 38px;
+
+}
+
+@media screen and (max-width: 768px){
+    .main__title{
+        font-size: 34px;
+        margin-bottom: 27px;
+    }
+}

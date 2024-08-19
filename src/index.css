@@ -1,0 +1,19 @@
+@import './vendor/fonts.css';
+@import './blocks/xxxvi.css';
+@import './blocks/student-table.css';
+@import './blocks/scholarship.css';
+@import './blocks/fgbou.css';
+@import './blocks/actual-table.css';
+@import './blocks/e-resources.css';
+@import './blocks/step-science.css';
+@import './blocks/graduate.css';
+
+
+body{
+    font-family: 'Evolventa', Arial, Helvetica, sans-serif;
+    /* background-color:#e1e1e1; */
+}
+
+a:hover{
+    color: rgb(162, 214, 135);
+}

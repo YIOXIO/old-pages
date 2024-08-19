@@ -1,0 +1,13 @@
+.sci-button {
+    background: #7C94FF;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.07em;
+    padding: 17px 0px 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}

@@ -2,7 +2,7 @@
   "name": "eco-project",
   "version": "1.0.0",
   "repository": {
-    "url": ""
+    "url": "git+https://github.com/yioxio/old-pages.git"
   },
   "description": "",
   "main": "index.js",

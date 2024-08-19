@@ -1,0 +1,25 @@
+/* Страница Step-Science HIVE.REA.RU */
+
+
+/* Общие стили */
+@import './step-science/root/root.css';
+@import './step-science/page/page.css';
+
+
+/* Стили для страницы Lead */
+
+@import './step-science/lead/__title/lead__title.css';
+@import './step-science/lead/__link/lead__link.css';
+@import './step-science/lead/__container/lead__container.css';
+@import './step-science/lead/__date/lead__date.css';
+@import './step-science/lead/__link-button/lead__link-button.css';
+@import './step-science/lead/__desc/lead__desc.css';
+
+/* Стили для section-title */
+@import './step-science/section-title/section-title.css';
+
+/* Стили для span-accent */
+@import './step-science/span-accent/span-accent.css';
+
+
+@import './step-science/main-list/main-list.css';

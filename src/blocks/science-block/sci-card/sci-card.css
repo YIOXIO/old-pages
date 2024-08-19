@@ -1,0 +1,11 @@
+.sci-card {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 13px rgb(0 0 0 / 12%);
+    border-radius: 5px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    min-height: 598px;
+}

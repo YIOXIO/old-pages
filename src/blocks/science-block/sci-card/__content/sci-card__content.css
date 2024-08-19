@@ -1,0 +1,10 @@
+.sci-card__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 15px 16px;
+    max-width: 288px;
+    gap: 11px;
+    height: 100%;
+    justify-content: flex-start
+}

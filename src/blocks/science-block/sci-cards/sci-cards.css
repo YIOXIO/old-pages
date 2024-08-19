@@ -1,0 +1,30 @@
+.sci-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 30px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 0 64px;
+    list-style: none;
+}
+
+@media screen and (max-width: 1175px) {
+    .sci-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sci-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .sci-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
